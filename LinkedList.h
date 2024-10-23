@@ -48,9 +48,11 @@ namespace AEO
             while (current != nullptr)
             {
                 // current->Display();
-                cout << current->GetData() << "\n";
+                cout << current->GetData() << " -> ";
                 current = current->next;
             }
+
+            cout << "\n";
         }
 
         // insert element at the beginning of the list.
